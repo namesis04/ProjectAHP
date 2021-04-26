@@ -1,6 +1,5 @@
 public class Alternatif {
     String nim;
-    String id;
     String nama;
     Kriteria[] kriteria;
     SubKriteria[] subkriteria;
