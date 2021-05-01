@@ -5,7 +5,6 @@ public class PB {
     
     public double [][] inputPerbMatriks(int jumlah, String[] Kriteria){
         double[][] perbMatriksInput = new double[jumlah][jumlah];
-        System.out.println("Masukkan data Matriks antara : ");
         for (int i = 0; i < jumlah; i++) {
             for (int j = 0; j < jumlah; j++) {
                 System.out.print(Kriteria[i] + " dengan " + Kriteria[j] + " : ");
@@ -23,12 +22,12 @@ public class PB {
         }
     }
     
-    void display(double[] matriks){
-        for(double d : matriks){
-            System.out.format("%.3f ",d);
-        }
-        System.out.println("");
-    }
+    // void display(double[] matriks){
+    //     for(double d : matriks){
+    //         System.out.format("%.3f ",d);
+    //     }
+    //     System.out.println("");
+    // }
 
 
 //    public double[][] calcPerbMatriks(double[] Perbandingan, int jumlah){
